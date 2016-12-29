@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "New Tab Trivia",
+  "description": "Get a random trivia question whenever you open a new tab.",
+  "version": "0.0.1",
+  "content_security_policy": "script-src 'self' https://opentdb.com; object-src 'self'",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}

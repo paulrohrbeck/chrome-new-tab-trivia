@@ -1,0 +1,12 @@
+{
+  "name": "chrome-tab-trivia",
+  "description": "Chrome Extension: Get a random trivia question whenever you open a new tab.",
+  "author": "Paul Rohrbeck <paul@paul-rohrbeck.de>",
+  "devDependencies": {
+    "jshint": "latest"
+  },
+  "scripts": {
+    "lint": "jshint src/tab.js",
+    "pretest": "npm run lint"
+  }
+}

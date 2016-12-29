@@ -1,0 +1,94 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background: #ecf0f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+.turquoise { background: #1abc9c}
+.emerald { background: #2ecc71}
+.peter-river { background: #3498db}
+.amethyst { background: #9b59b6}
+.wet-asphalt { background: #34495e}
+.green-sea { background: #16a085}
+.nephritis { background: #27ae60}
+.belize-hole { background: #2980b9}
+.wisteria { background: #8e44ad}
+.midnight-blue { background: #2c3e50}
+.sunflower { background: #f1c40f}
+.carrot { background: #e67e22}
+.alizarin { background: #e74c3c}
+.concrete { background: #95a5a6}
+.orange { background: #f39c12}
+.pumpkin { background: #d35400}
+.pomegranate { background: #c0392b}
+.silver { background: #bdc3c7}
+.asbestos { background: #7f8c8d}
+
+.hidden {
+  visibility: hidden;
+}
+
+.main {
+  color: #fff;
+}
+
+.loading {
+  color: #ffffff;
+}
+
+h4.category {
+  text-transform: uppercase;
+  font-size: 0.7vw;
+}
+
+h1.question {
+  font-size: 2.5vw;
+  max-width: 40vw;
+  margin: 1vw auto;
+}
+
+.answers {
+  font-size: 1.4vw;
+  margin: 0;
+  padding: 0;
+}
+.answers li {
+  display: inline;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 0.5vw 1vw;
+  margin: 0.7vw;
+  line-height: 4vw;
+  white-space: nowrap;
+  transition: all 1s ease-in-out;
+}
+.answers li.correct.active {
+  color: #fff;
+  box-shadow: 0px 0px 20px #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+
+  h4.category {
+    font-size: 7px;
+  }
+
+  h1.question {
+    font-size: 25px;
+  }
+
+  h2.answers {
+    font-size: 14px;
+  }
+
+}
